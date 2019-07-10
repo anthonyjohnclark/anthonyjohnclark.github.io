@@ -1,0 +1,15 @@
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Suez+One&display=swap');
+
+      body {
+        font-family: 'Montserrat', Helvetica, sans-serif;
+      }
+      h1 {
+        font-family:'Suez One', serif;
+        opacity: .8;
+      }
+      h2 {
+        font-family: 'Suez One', serif;
+      }
+      h4 {
+        font-variant-caps: all-small-caps;
+        }

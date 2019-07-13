@@ -1,15 +1,25 @@
-      @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab&display=swap');
 
       body {
-        font-family: 'Montserrat', Helvetica, sans-serif;
+        max-width: 975px;
+        margin: auto;
+        background-color: #006600;
+        font-family: 'Roboto Slab', Helvetica, sans-serif;
       }
       h1 {
-        font-family:'Suez One', serif;
+        font-family:'Roboto Mono', serif;
         opacity: .8;
+        text-align: center
       }
       h2 {
-        font-family: 'Suez One', serif;
+        font-family: 'Roboto Mono', serif;
+        text-align: center
       }
       h4 {
         font-variant-caps: all-small-caps;
         }
+      #header {
+        background-color: light gray;
+        color: white;
+
+      }

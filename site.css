@@ -1,25 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab&display=swap');
 
       body {
-        max-width: 975px;
+        max-width: 990px;
         margin: auto;
         background-color: #006600;
-        font-family: 'Roboto Slab', Helvetica, sans-serif;
+        font-family: 'Roboto Mono', Helvetica, sans-serif;
+        line-height: 80%;
+      }
+      header {
+        padding: .5%;
+        background-color: #666699;
+        color: white;
+      }
+      h3 sup{
+        font-size: 10px;
+        text-align: right;
+        font-style: italic;      
+      }
+      header p{
+        text-align:center
+      }
+      ul li{ 
+        font-size: 12px
       }
       h1 {
-        font-family:'Roboto Mono', serif;
+        font-family:'Roboto Slab', serif;
         opacity: .8;
         text-align: center
-      }
+          }
+       p{
+            text-align:center
+          }
       h2 {
-        font-family: 'Roboto Mono', serif;
+        font-family: 'Roboto Slab', serif;
         text-align: center
       }
-      h4 {
-        font-variant-caps: all-small-caps;
-        }
-      #header {
-        background-color: light gray;
-        color: white;
-
-      }
+      

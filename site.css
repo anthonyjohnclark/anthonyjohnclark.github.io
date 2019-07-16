@@ -3,7 +3,7 @@
       body {
         max-width: 990px;
         margin: auto;
-        background-color: #546E7A;
+        background-color: #263238;
         font-family: 'Roboto Mono', Helvetica, sans-serif;
         line-height: 80%;
         color: #F5F5F5;
@@ -11,11 +11,22 @@
       header {
         padding: .5%;
         color: #D4E157;
+       }
+      header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height:30%;
+        border-radius: 50%;
+        position: relative;
+        top: 15%
       }
       h3 sup{
         font-size: 10px;
         text-align: right;
-        font-style: italic;     
+        font-style: italic;
+        text-align: right;    
       }
       header p{
         text-align:center
@@ -35,6 +46,21 @@
         font-family: 'Roboto Slab', serif;
         text-align: center;
         color: #546E7A;
+        padding: 2%;
       }
-      
+      .jobtitle{
+        padding: 0px;
+        background-color: black;
+      }
+      .education img {
+        position: relative;
+        bottom: 50px;
+        left: 75%;
+        size: relative;
+        width: 10%;
+        height: 40%;
+         }    
+         h3{
+          color: #F5F5F5;
+         }
       

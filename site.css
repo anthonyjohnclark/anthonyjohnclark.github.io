@@ -3,19 +3,19 @@
       body {
         max-width: 990px;
         margin: auto;
-        background-color: #006600;
+        background-color: #546E7A;
         font-family: 'Roboto Mono', Helvetica, sans-serif;
         line-height: 80%;
+        color: #F5F5F5;
       }
       header {
         padding: .5%;
-        background-color: #666699;
-        color: white;
+        color: #D4E157;
       }
       h3 sup{
         font-size: 10px;
         text-align: right;
-        font-style: italic;      
+        font-style: italic;     
       }
       header p{
         text-align:center
@@ -26,13 +26,15 @@
       h1 {
         font-family:'Roboto Slab', serif;
         opacity: .8;
-        text-align: center
-          }
+        text-align: center;
+                }
        p{
             text-align:center
           }
       h2 {
         font-family: 'Roboto Slab', serif;
-        text-align: center
+        text-align: center;
+        color: #546E7A;
       }
+      
       

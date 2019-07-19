@@ -8,12 +8,17 @@
   <body>
      <header>
         <h1><strong>Anthony John Clark</strong></h1>
+        <div style="text-align:center">
+          <span class="nav" onclick="currentSlide(1)"> About</span>
+          <span class="nav" onclick="currentSlide(2)"> Education </span> 
+          <span class="nav" onclick="currentSlide(3)"> Experience</span> 
+          </div>
           <p>aclark3244@gmail.com</p>
        </header>
     <div class="wholebody"></div>
       <section class="slides fade">
           <h2>Education</h2>
-            <div class="jobtitle"><h3>SUNY College at Oneonta, Oneonta, NY<sup>Spring 2014</sup></h3></div>
+            <div class="jobtitle"><h3>SUNY College at Oneonta, Oneonta, NY<sup> Spring 2014</sup></h3></div>
               <ul>
                 <li>Bachelor of Arts, Music Industry</li>
                 <li>Mass Communications Minor</li>
@@ -60,12 +65,7 @@
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <br>
-  <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
+ </div>
     <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -81,7 +81,7 @@
     function showSlides(n) {
       var i;
       var slides = document.getElementsByClassName("slides");
-      var dots = document.getElementsByClassName("dot");
+      var dots = document.getElementsByClassName("nav");
       if (n > slides.length) {slideIndex = 1}    
       if (n < 1) {slideIndex = slides.length}
       for (i = 0; i < slides.length; i++) {

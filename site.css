@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Roboto Mono';
-  margin: 0%;}
+  margin: 0%;
+}
 
   img {vertical-align: middle;}
 
@@ -33,16 +34,26 @@ body {
     .prev:hover, .next:hover {
           background-color: rgba(0,0,0,0.8); 
     }
+
+    #navbar {
+      display: flex;
+      justify-content: space-around;
+  
+    }
     .nav {
       cursor: pointer;
-      display: inline-block;
       transition: background-color 0.6s ease;
+      display:flex;
+      justify-content:space-around;
+      width: 100%;
     }
     .active, .nav:hover {
       background-color: #717171;
+
     }
       header {
         color: #D4E157;
+        line-height: 1em;
        }
     h3 sup{
         font-size: 10px;
@@ -57,8 +68,7 @@ body {
       h1 {
         font-family:'Roboto Slab', serif;
         text-align: center;
-        background-color: black;
-                }
+               }
       h2 {
         font-family: 'Roboto Slab', serif;
         text-align: center;
